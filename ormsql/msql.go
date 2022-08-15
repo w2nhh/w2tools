@@ -2,6 +2,7 @@ package ormsql
 
 import (
 	"fmt"
+	"time"
 
 	"github.com/jinzhu/gorm"
 )
@@ -15,7 +16,7 @@ type SqlOptions struct {
 	User     string
 	Password string
 	Db       string
-	// LifeTime time.Duration
+	LifeTime time.Duration
 }
 
 type SqlOption func(opt *SqlOptions)
