@@ -1,6 +1,6 @@
 module w2tools
 
-go 1.18
+go 1.17
 
 require github.com/jinzhu/gorm v1.9.16
 
